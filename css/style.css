@@ -120,7 +120,7 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: -2rem;
-  height: 600px;
+  height: 585px;
   width: var(--width-content);
   background: var( --main-background);
   border-top-left-radius: var(--border-phone-shape);
@@ -135,16 +135,12 @@ body{
 @keyframes fadeOut {
 20% {
    transform: translateY(0px) translateX(150px);
+   top: 4rem;
     height: 580px;
     width: 10px;
   }  
-50% {
-   transform: translateY(200px) translateX(150px);
-    height: 400px;
-    width: 10px;
-  }
   100% {
-    transform: translateY(550px) translateX(155px);
+    transform: translateY(600px) translateX(154px);
     height: 0px;
     width: 0px;
     z-index: 1;
