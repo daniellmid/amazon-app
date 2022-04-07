@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://kit.fontawesome.com/9074870299.js" crossorigin="anonymous"></script>
+      <script type="module" src="js/script.js"></script>
+      <link rel="stylesheet" href="css/style.css">
+      <title>Amazon App</title>
+    </head>
+    <body>
+      <img class='phone' src='https://drive.google.com/uc?export=view&id=1AiVNpr5iHI-PyaR_BONhOTtdB6P_k6tj'>
+      
+        <div class='main-mobile-container'>
+          <section id='mobile-top-navbar'> <!--Clock, signal ,battery..-->
+              <div class='mobile-navbar top-navbar'>
+                  <img class='phone-lens' src='https://drive.google.com/uc?export=view&id=1RFVu8R0LjTYh6Cn_YkVHCo2Y8UYo4Y2m'>
+                  <div class='mb-navbar-clock'>
+                  </div>
+                  <div class='mb-navbar-signal'>
+                  </div>
+                  <div class='mb-navbar-battery'>
+                  </div>
+              </div> 
+          </section>
+          <section id='main-tab-content'> 
+            <span class='loading-container'><span class='loading'><img class="img-loading" src='https://drive.google.com/uc?export=view&id=1lj6WzKv0KGoK9n28cC8Dko3cIJC8Io0p' alt='amazon-logo'></span></span>
+              <div class='popup-message'><p></p></div>
+              <div id='tab-home' class='tab-home content active' data-tab-content><!--tab Home: search, tabs, banner, products, ect-->
+                  <div class='home-navbar'> 
+                      <i class='fa-solid fa-magnifying-glass icon-glass'></i>
+                      <input id='search-bar'class='search-bar' value='' type='text' placeholder='Search Amazon'  min='1' max='50'/> 
+                    <img class="icon-scan" src='https://drive.google.com/uc?export=view&id=1IJF8EFbRY8CFH86Wt5zf4zLg1aZO_7Yj' alt='icon-mic'>
+                    <img class="icon-mic" src='https://drive.google.com/uc?export=view&id=1FIXqK1GsNC3I6Iz9Luh0reraL-PoM48F' alt='icon-mic'>                
+                     <ul class=hm-navbar-bar>
+                        <li class='hm-navbar-tab' data-tab-target='#tab-groceries'>Groceries</li>
+                        <li class='hm-navbar-tab' data-tab-target='#tab-pharmacy'>Pharmacy</li>
+                        <li class='hm-navbar-tab' data-tab-target='#tab-buy-again'>Buy Again</li>
+                        <li class='hm-navbar-tab' data-tab-target='#tab-in-store'>In-Store</li>
+                        <li class='hm-navbar-tab' data-tab-target='#tab-alexa-lists'>Alexa Lists</li>
+                        <li class='hm-navbar-tab' data-tab-target='#tab-prime'>Prime</li>
+                        <li class='hm-navbar-tab' data-tab-target='#tab-video'>Video</li>
+                        <li class='hm-navbar-tab' data-tab-target='#tab-music'>Music</li> 
+                      </ul>                    
+                      
+                  </div>               
+                  <div id='items-container' class='items-container'>
+                      <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=18jAnPPm4WBal1SxGIuBAi-LHTEqqG_wW'>
+                         <span class='item-title'>Amazon Basics Executive Home Office Desk Chair</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=1GyzG7Pb42AAGhO-q_T9Vu677TCsPDjC_'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>162.70</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>
+                      <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=1Dd8siL8ZHERKTposNjJzBBzBB3LbEhGa'>
+                         <span class='item-title'>Blue tshirt</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=1ZFVecLtgxzutJe3LIvn0dZWt1TXQUeg9'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>6.58</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>
+                     <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=1S2dGUFBAOTxxGs8nOgaCLPmpLM33J8_N'>
+                         <span class='item-title'>Womens pink shoes</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=10iH7je2kZJLq02Hpx98wIuGAZXzQomwe'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>135.48</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>                
+                      <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=1c3jgP59CU_vAuFXByJguto1A3dZA_ITy'>
+                         <span class='item-title'>Mens grey shoes</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=1GyzG7Pb42AAGhO-q_T9Vu677TCsPDjC_'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>28.48</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>
+                      <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=1MbTdzi5TLZi-MYM4QFl1rIZgwPbNe6O-'>
+                         <span class='item-title'>Black tshirt Friends Edition</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=1JPbKPmo2YMUrlizDv9PDsCinscy2w_Qf'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>7.99</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>
+                      <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=1R4G-XbUjdpMikT2A_nU9d_pqmCUMM2fi'>
+                         <span class='item-title'>Sennheiser Headphones close back</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=10iH7je2kZJLq02Hpx98wIuGAZXzQomwe'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>135.74</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>
+                      <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=1vygYK4_bg3bAIV8XTe3GuSshOXNMzJzE'>
+                         <span class='item-title'>Beats by Dr Dre Headphones</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=1mg9CFb3n2IQf9IPMWa3RCIIEIoJ4Wo5U'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>221.34</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>
+                      <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=1PyAMWUG1JP9j8ybBvd-EYEP_6upJXADk'>
+                         <span class='item-title'>AIAIAI Tma-2 Headphones</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=1ZFVecLtgxzutJe3LIvn0dZWt1TXQUeg9'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>245.87</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>
+                      <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=1gCBh7-S11aHp6h5YffMYcpuh-J9SgXwH'>
+                         <span class='item-title'>Executive Home Office Desk Pink Chair</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=1JPbKPmo2YMUrlizDv9PDsCinscy2w_Qf'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>367.29</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>
+                      <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=1Ep-omeYKIg6gvAFov8ZW7hy8ZY7Em6L1'>
+                         <span class='item-title'>Oxford black shoes</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=1ZFVecLtgxzutJe3LIvn0dZWt1TXQUeg9'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>43.82</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>
+                      <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=12SR20VOwZMiqtCw70r-CPyvc5vMrXKFl'>
+                         <span class='item-title'>Desktop Lamp</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=1GyzG7Pb42AAGhO-q_T9Vu677TCsPDjC_'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>16.21</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>
+                      <div id='item' class='item'>
+                         <img class='item-image' src='https://drive.google.com/uc?export=view&id=16nZNmEbSDXLPnmi4qhUHkbpbdFKZZLTN'>
+                         <span class='item-title'>Clorox cleaning wipes</span>
+                         <img class='item-rating' src='https://drive.google.com/uc?export=view&id=10iH7je2kZJLq02Hpx98wIuGAZXzQomwe'>
+                         <span class='item-details'></span> 
+                         <div>
+                             <span class='item-price'>2.89</span> 
+                             <button class='btn btn-cart item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'></button>
+                             <button class='btn btn-tab-list item-button' type="button"><img src='https://drive.google.com/uc?export=view&id=1pui8LKrZ1zSnHZLXa2Zb5MsGbeoIwa12'></button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div id='tab-account' class='tab-account content' data-tab-content><!--tab Account: profile, orders, buy again, etc-->
+                 <div class='acc-search-navbar'>
+                    <img class='icon-account icon-acc-logo' alt='icon-logo' src='https://drive.google.com/uc?export=view&id=1H_JiJc_kV-OGbObHQGzCWxMQdUcOoAsI'>
+                    <div><img class='icon-account icon-acc-bell' src='https://drive.google.com/uc?export=view&id=1sBO_DR3wTKKtx8zSbYloE0mKHvek-1JM'>
+                    <i class='fa-solid fa-magnifying-glass icon-acc-glass'></i>
+                    </div>
+                 </div>
+                 <div class='account-navbar'>
+                     <div class='acc-profile'>
+                       <p id='user-id'>Hello,<strong>Daniel</strong></p>
+                       <img class='icon-acc-user'src='https://drive.google.com/uc?export=view&id=1rO1R-HB9p7V0zGaYe-O6QOSMxPMMi5xX'>
+                     </div>
+                     <ul class='btn-acc-options'>
+                       <li class='btn btn-acc' data-tab-target='#tab-your-orders'>Your Orders</li>
+                       <li class='btn btn-acc' data-tab-target='#tab-buy-again'>Buy Again</li>
+                       <li class='btn btn-acc' data-tab-target='#tab-settings'>Your Account</li>
+                       <li class='btn btn-acc' data-tab-target='#tab-your-stuff'>Your Lists</li>
+                     </ul>
+                 </div>
+                 <div class='account-content'>
+                     <div class='acc-orders'>
+                     </div>
+                     <div class='acc-keepshopping'>
+                     </div>
+                     <div class='acc-list'>
+                     </div>
+                     <div class='acc-account'>
+                     </div>
+                 </div>
+              </div>
+              <div id='tab-cart' class='tab-cart content' data-tab-content> <!--tab Cart: Subtotal, products selected, etc-->    
+                 <div class='cart-navbar'>
+                    <i class='fa-solid fa-magnifying-glass    icon-glass'></i>
+                    <input class='search-bar' value='' type='text' placeholder='Search Amazon' min='1' max='50'/> 
+                    <img class="icon-scan" src='https://drive.google.com/uc?export=view&id=1IJF8EFbRY8CFH86Wt5zf4zLg1aZO_7Yj' alt='icon-mic'></img>
+                    <img class="icon-mic" src='https://drive.google.com/uc?export=view&id=1FIXqK1GsNC3I6Iz9Luh0reraL-PoM48F' alt='icon-mic'></img> 
+                    <ul class=cart-navbar-bar>
+                        <li class='cart-navbar-tab active-tab'>Cart</li>
+                        <li class='cart-navbar-tab' data-tab-target='#tab-buy-again'>Buy Again</li>
+                        <li class='cart-navbar-tab medium-tab' data-tab-target='#tab-in-store'>In-Store code</li>
+                        <li class='cart-navbar-tab large-tab' data-tab-target='#tab-whole-foods'>Whole Foods Code</li>
+                        <li class='cart-navbar-tab' data-tab-target='#tab-amazon-go'>Amazon Go</li>                  
+                    </ul>         
+                </div>
+                <div class='cart-content'>
+                   <p class='cart-subtotal'>Total  <span class='subtotal-value'>0</span></p>
+                   <div class='checkout'><button class='btn-checkout'>Proceed to purchase</button></div>
+                  <div class='cart-items'>
+                       
+                  </div>
+                  <div class='saved-items'>
+                    <p>Saved for later<span class='count-items-saved'>(0 items)</span></p>
+                  </div>
+               </div>           
+            </div>
+            <div id='tab-menu' class='tab-menu content' data-tab-content> <!--tab Menu: menu, etc-->    
+                <div class='menu-navbar'>
+                    <i class='fa-solid fa-magnifying-glass    icon-glass'></i>
+                    <input class='search-bar' value='' type='text' placeholder='Search Amazon' min='1' max='50'/> 
+                    <img class="icon-scan" src='https://drive.google.com/uc?export=view&id=1IJF8EFbRY8CFH86Wt5zf4zLg1aZO_7Yj' alt='icon-mic'>
+                    <img class="icon-mic" src='https://drive.google.com/uc?export=view&id=1FIXqK1GsNC3I6Iz9Luh0reraL-PoM48F' alt='icon-mic'>                   </div>
+                <div class='mn-content'>
+                    <ul>
+                      <li class='mn-option option' data-tab-target='#tab-prime'>Prime</li>
+                      <li class='mn-option option' data-tab-target='#tab-gift'>Gifting & Charity</li>
+                      <li class='mn-option option' data-tab-target='#tab-deals'>Deals & Savings</li>
+                      <li class='mn-option option' data-tab-target='#tab-groceries'>Groceries & Stores</li>
+                      <li class='mn-option option' data-tab-target='#tab-personal-care'>Drugstore & Personal Care</li>
+                      <li class='mn-option option' data-tab-target='#tab-pets'>Pets</li>
+                      <li class='mn-option option' data-tab-target='#tab-beauty'>Fashion & Beauty</li>
+                      <li class='mn-option option' data-tab-target='#tab-home-diy'>Home & DIY</li>
+                      <li class='mn-option option' data-tab-target='#tab-electronics'>Devices & Electronics</li>
+                      <li class='mn-option option' data-tab-target='#tab-music-video-games'>Music, Video & Gaming</li>
+                      <li class='mn-option option' data-tab-target='#tab-books'>Books & Reading</li>
+                      <li class='mn-option option' data-tab-target='#tab-kids'>Toys, Kids & Baby</li>
+                      <li class='mn-option option' data-tab-target='#tab-automotive'>Automotive</li>
+                      <li class='mn-option option' data-tab-target='#tab-office'>Office & Professional</li>
+                      <li class='mn-option option' data-tab-target='#tab-sports'>Sports & Fanshop</li>
+                      <li class='mn-option option' data-tab-target='#tab-travel'>Outdootrs & Travel</li>
+                      <li class='mn-option option' data-tab-target='#tab-payments'>Credit Cards & Payments</li>
+                      <li class='mn-option option' data-tab-target='#tab-make-money'>Make Money With Us</li>
+                      <li class='mn-option option' data-tab-target='#tab-delivery-services'>Delivery Services</li>
+                      <li class='mn-option option' data-tab-target='#tab-sustainability'>Sustainability</li>
+                      <li class='mn-option option' data-tab-target='#tab-your-stuff'>Your Stuff</li>
+                      <li class='mn-option mn-other' data-tab-target='#tab-settings'>Settings</li>
+                      <li class='mn-option mn-other' data-tab-target='#tab-customer-service'>Customer-Service</li>
+                   </ul>
+                 </div>
+              </div>
+          </section>
+          <section id='second-tab-content'>
+                 <div id='tab-groceries' class='tab-groceries content' data-tab-content>Groceries</div>
+                 <div id='tab-pharmacy' class='tab-pharmacy content' data-tab-content>Pharmacy</div>
+                 <div id='tab-buy-again' class='tab-buy-again content' data-tab-content>Buy Again</div>
+                 <div id='tab-your-orders' class='tab-your-orders content' data-tab-content>Your-Orders</div>
+                 <div id='tab-in-store' class='tab-in-store content' data-tab-content>In-Store</div>
+                 <div id='tab-whole-foods' class='tab-whole-foods content' data-tab-content>Whole Foods</div>
+                 <div id='tab-alexa-lists' class='tab-alexa-lists content' data-tab-content>Alexa Lists</div>
+                 <div id='tab-amazon-go' class='tab-amazon-go content' data-tab-content>Amazon Go</div>
+                 <div id='tab-prime' class='tab-prime content' data-tab-content>Prime</div>
+                 <div id='tab-video' class='tab-video content' data-tab-content>Video</div>
+                 <div id='tab-music' class='tab-music content' data-tab-content>Music</div> 
+                 
+                 <div id='tab-gift' class='tab-gift content' data-tab-content>Gifting & Charity</div>
+                 <div id='tab-deals' class='tab-deals content' data-tab-content>Deals & Savings</div>
+                 <div id='tab-groceries' class='tab-groceries content' data-tab-content>Groceries & Stores</div>
+                 <div id='tab-personal-care' class='tab-personal-care content' data-tab-content>Drugstore & Personal Care</div>
+                 <div id='tab-pets' class='tab-pets content' data-tab-content>Pets</div>
+                 <div id='tab-beauty' class='tab-beauty content' data-tab-content>Fashion & Beauty</div>
+                 <div id='tab-home-diy' class='tab-home-diy content' data-tab-content>Home & DIY</div>
+                 <div id='tab-electronics' class='tab-electronics content' data-tab-content>Devices & Electronics</div>
+                 <div id='tab-music-video-games' class='tab-music-video-games content' data-tab-content>Music, Video & Gaming</div>
+                 <div id='tab-books' class='tab-books content' data-tab-content>Books & Reading</div>
+                 <div id='tab-kids' class='tab-kids content' data-tab-content>Toys, Kids & Baby</div>
+                 <div id='tab-automotive' class='tab-automotive content' data-tab-content>Automotive</div>
+                 <div id='tab-office' class='tab-office content' data-tab-content>Office & Professional</div>
+                 <div id='tab-sports' class='tab-sports content' data-tab-content>Sports & Fanshop</div>
+                 <div id='tab-travel' class='tab-travel content' data-tab-content>Outdootrs & Travel</div>
+                 <div id='tab-payments' class='tab-payments content' data-tab-content>Credit Cards & Payments</div>
+                 <div id='tab-make-money' class='tab-make-money content' data-tab-content>Make Money With Us</div>
+                 <div id='tab-delivery-services' class='tab-delivery-services content' data-tab-content>Delivery Services</div>
+                 <div id='tab-sustainability' class='tab-sustainability content' data-tab-content>Sustainability</div>
+                 <div id='tab-your-stuff' class='tab-your-stuff content' data-tab-content>Your Stuff</div>
+                 <div id='tab-settings' class='tab-settings content' data-tab-content>Settings</div>
+                 <div id='tab-customer-service' class='tab-customer-service content' data-tab-content>Customer-Service</div>
+          </section>
+          <section id='app-navbar'>
+             
+                <div class='navbar-tabs'>
+                    <span class='active-tab' data-tab-target='#tab-home'>
+                      <img alt='icon-home' src='https://drive.google.com/uc?export=view&id=1jzn1fUjIcwk0UX7ZiHH5z5jNyu6fdeb5'>
+                      <img  class='selected-icon s-i-home' alt='selected-icon-home'  src='https://drive.google.com/uc?export=view&id=1PErNQbAtbDf59-rBto0dHNkHSG0i6jq2'></span>
+      
+                    <span data-tab-target='#tab-account'>
+                      <img alt='icon-account' src='https://drive.google.com/uc?export=view&id=1KcDzevnCCn6R4f1_JzazCqoxY_apHdxC'>
+                      <img class='selected-icon s-i-account' alt='selected-icon-account'  src='https://drive.google.com/uc?export=view&id=1tmLLZxMfuHGiTmqkgcui8sAEVOJWwyZn'></span>
+    
+                    <span class='tab-cart'data-tab-target='#tab-cart'>
+                      <img alt='icon-cart' src='https://drive.google.com/uc?export=view&id=1ihix4JEeNy2KAoQlR3FWBxRtwovi2D70'>
+                      <img class='selected-icon s-i-cart' alt='selected-icon-cart' src='https://drive.google.com/uc?export=view&id=1kkPu3TxCTbodcHVnDhyEJIX5pf0BCsRz'><span class='cart-span'></span></span>
+                    
+    
+                    <span data-tab-target='#tab-menu'>
+                      <img alt='icon-menu' src='https://drive.google.com/uc?export=view&id=1AKQgnvWdD8AQZYLmAW01BBTxl3yNH23A'>
+                     <img class='selected-icon s-i-menu' alt='selected-icon-menu'  src='https://drive.google.com/uc?export=view&id=11-6G-n6VibhG86GFQUugCiaHE5BYdqk3'><span>
+                </div>
+            
+          </section>
+          <section id='mobile-bottom-navbar'><!--Mobile Navigation buttons-->
+              <div class='mobile-navbar bottom-navbar'>              
+                    <img class='nb-mb-icon nb-mb-menu' alt='nb-mb-icon-back' src='https://drive.google.com/uc?export=view&id=1OKc0aTCtQ3N3gkBMmHRL0dWRI5ChxQ3z'>
+                    <img class='nb-mb-icon nb-mb-home' alt='nb-mb-icon-back' src='https://drive.google.com/uc?export=view&id=1iiqWeIICO6hfsWGYpVa-vj95ywe6GFIZ'>
+                    <img class='nb-mb-icon nb-mb-back' alt='nb-mb-icon-back' src='https://drive.google.com/uc?export=view&id=1NMVzZIgitWTrnlbs6THdgSISEYlGXpGx'> 
+             </div>
+          <section>
+        </div>
+    </body>
+</html>
