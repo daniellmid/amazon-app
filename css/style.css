@@ -1,5 +1,11 @@
-@import url("https://cdn.jsdelivr.net/gh/GoCloudHub/font-amazon-ember/fonts/amazonember/amazonember.css");
-
+@font-face {
+  font-family: 'Amazon Ember';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: local('Amazon Ember'),
+      url('//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff2') format('woff2');
+}
 
 ::-webkit-scrollbar{width:2px;height:2px;}
 ::-webkit-scrollbar-button{width:2px;height:2px;}
